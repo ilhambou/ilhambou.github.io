@@ -10,7 +10,7 @@ const seo = {
   title: "BOUICH Ilham",
   description:
     "Ingénieur en informatique et réseaux, option MIAGE, à la recherche d un stage de projet de fin d études (PFE), lié à mon domaine.",
-    
+
   og: {
     title: "BOUICH Ilham Portfolio",
     type: "website",
@@ -24,7 +24,7 @@ const greeting = {
   logo_name: "BOUICHIlham",
   nickname: "",
   subTitle:
-  "Ingénieur en informatique et réseaux, option MIAGE, à la recherche d un stage de projet de fin d études (PFE), lié à mon domaine.",
+    "Ingénieur en informatique et réseaux, option MIAGE, à la recherche d un stage de projet de fin d études (PFE), lié à mon domaine.",
   resumeLink:
     "https://drive.google.com/file/d/1PotOjVc0l6Lbf6IohgyhdtrLo4KG8ePK/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -32,8 +32,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-
-
   {
     name: "Github",
     link: "https://github.com/ilhambou",
@@ -53,7 +51,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-
 ];
 
 const skills = {
@@ -61,10 +58,7 @@ const skills = {
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
-      skills: [
-        "⚡ Conception et réalisation des applications Web ",
-        
-      ],
+      skills: ["⚡ Conception et réalisation des applications Web "],
       softwareSkills: [
         {
           skillName: "Java",
@@ -101,7 +95,7 @@ const skills = {
             color: "#1572B6",
           },
         },
-      
+
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -109,7 +103,7 @@ const skills = {
             color: "#61DAFB",
           },
         },
-     
+
         {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
@@ -124,19 +118,16 @@ const skills = {
             color: "#CB3837",
           },
         },
-     
       ],
     },
     {
-      title: "Initiée aux Technologies Cloud / DevOps",
+      title: "Initiation aux technologies Cloud / DevOps",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Je suis passionnée par les technologies Cloud et je cherche à approfondir mes connaissances. Actuellement, je suis engagée dans une formation approfondie en Cloud Computing et DevOps, cherchant à maîtriser les concepts fondamentaux ainsi que les outils essentiels.",
-     ,
+        ,
       ],
       softwareSkills: [
-      
-       
         {
           skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
@@ -144,7 +135,7 @@ const skills = {
             color: "#0089D6",
           },
         },
-      
+
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
@@ -159,17 +150,14 @@ const skills = {
             color: "#1488C6",
           },
         },
-     
       ],
     },
-   
   ],
 };
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-  ]
+  competitiveSites: [],
 };
 
 const degrees = {
@@ -179,16 +167,14 @@ const degrees = {
       duration: "2019 - 2024",
       descriptions: [
         "⚡ Étudiante en 5ème année en Ingénierie Informatique et Réseaux, option MIAGE",
-
       ],
     },
     {
       title: "Lycée Mohamed VI",
-   
+
       duration: "2018 - 2019",
       descriptions: [
         "⚡ Baccalauréat science physique et chimie option français",
-
       ],
     },
   ],
@@ -212,7 +198,7 @@ const certifications = {
     },
     {
       title: "Front-End Web UI Frameworks and Tools: Bootstrap 4",
-    
+
       logo_path: "HKUST_margin-1.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/verify/H3S2JH3VLCKP",
@@ -236,10 +222,9 @@ const certifications = {
       title: "Blockchain Basics",
       logo_path: "University_at_Buffalo_logo.svg.png",
       certificate_link:
-      "https://www.coursera.org/account/accomplishments/verify/K44HX7R2T28Q",
+        "https://www.coursera.org/account/accomplishments/verify/K44HX7R2T28Q",
       color_code: "#1F70C199",
     },
-   
   ],
 };
 
@@ -248,13 +233,11 @@ const experience = {
   title: "Experience",
   subtitle: "Projets académiques, Stages et Autres projets",
   header_image_path: "experience.svg",
- 
+
   sections: [
-  
     {
       title: "Stages",
       experiences: [
-        
         {
           title: "Stage en gestion du transport",
           company: "Cliquer pour consulter le code source",
@@ -263,11 +246,10 @@ const experience = {
           duration: "juillet 2023 - Août 2023",
           location: "Rabat, Maroc",
           description:
-          "-Conception et développement d'une application web de gestion du transport, simplifiant les réservations de colis, l'organisation des trajets et la gestion des conducteurs et des véhicules. -Technologie et outils : Spring boot, Mysql, Html, Css, Bootstrap.",
+            "-Conception et développement d'une application web de gestion du transport, simplifiant les réservations de colis, l'organisation des trajets et la gestion des conducteurs et des véhicules. -Technologie et outils : Spring boot, Mysql, Html, Css, Bootstrap.",
           color: "#000000",
         },
-      
-      
+
         {
           title: "Stage d'initiation",
           company: "Cliquer pour consulter le code source",
@@ -279,15 +261,12 @@ const experience = {
             "-Conception et réalisation d'une application web permettant de gérer les clients. -Technologie et outils : Mern Stack.",
           color: "#ee3c26",
         },
-      
-        
       ],
     },
     {
       title: "Projets académiques",
       work: true,
       experiences: [
-       
         {
           title: "Cabinet Dentaire",
           company: "Cliquer pour consulter le code source",
@@ -313,7 +292,6 @@ const experience = {
     {
       title: "Autres projets",
       experiences: [
-       
         {
           title: "mini-projet",
           company: "Cliquer pour consulter le code source",
