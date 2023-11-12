@@ -121,7 +121,7 @@ const skills = {
       ],
     },
     {
-      title: "Initiation aux technologies Cloud / DevOps",
+      title: "Initiation aux technologies Cloud / DevOps ",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Je suis passionnée par les technologies Cloud et je cherche à approfondir mes connaissances. Actuellement, je suis engagée dans une formation approfondie en Cloud Computing et DevOps, cherchant à maîtriser les concepts fondamentaux ainsi que les outils essentiels.",
